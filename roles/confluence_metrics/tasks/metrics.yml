@@ -1,0 +1,16 @@
+
+- name: Call the module to get prometheus metrics and save to metrics.json
+  get_metrics:
+     ocptoken: "{{ocptoken}}"
+     server: "{{svr}}"
+     startdatetime: "{{startdate}}"
+     enddatetime: "{{enddate}}"
+     namespace: "{{ns}}" 
+
+- name: Call the module to push prometheus metrics to confluence page
+  push_metrics:
+     namespace: "{{ns}}"
+     conf_token: "{{ctoken}}"
+     conf_url: "{{url}}"
+     conf_id: "{{id}}"
+     jsession_id: "{{jsession_id}}"

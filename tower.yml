@@ -1,0 +1,6 @@
+---
+- name: Run on Tower Metrics
+  hosts: bastion
+  gather_facts: false
+  roles:
+    - { name: confluence_metrics, metrics: true }

@@ -1,0 +1,6 @@
+---
+
+- name: get and push metrics
+  include_tasks: metrics.yml
+  when: metrics | default(False) == True
+

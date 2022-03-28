@@ -1,0 +1,6 @@
+- name: Run the main get metrics on ubuntu app
+  hosts: 127.0.0.1
+  gather_facts: no
+  connection: local
+  roles: 
+      - { name: confluence_metrics, metrics: true }

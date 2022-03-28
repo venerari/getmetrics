@@ -1,0 +1,28 @@
+---
+
+# namespace (this can be a list but slow the processing time)  
+ns: '["cs-lt","cs-dev","cs-et","cs-pt","cs-uat","cs-mgs","efms-lt","rts-dev","rts-uat-mgs","teradmin-et"]'
+
+# url of confluence
+url: 'https://confluence.x.ca/rest/api/content/' 
+
+# confluence service token
+ctoken: 
+
+# openshift token (if blank, it will get it from the linux app but need to have oc binary and oc login before running this)
+ocptoken: 
+
+# openshift env server name
+svr: https://prometheus-k8s-openshift-monitoring.apps.x.ca 
+
+# startdate metrics
+startdate: 
+
+# enddate metrics
+enddate: 
+
+# confluence page id  
+id: 87198483 
+
+# jsession id
+jsession_id: 045BC72DA68F8D99D93D3B0704FFB243
