@@ -55,7 +55,7 @@ EXAMPLES = '''
     namespace: "['ns-lt', 'ns-dev', 'ns-et']"
     conf_token: 'xxxxxxxxxxxxxxxxx'
     conf_url: 'https://confluence.corp.server.ca/rest/api/content/'
-    conf_id: '87191234'
+    conf_id: 'xxxxxxxx'
     jsession_id: "xxxxxxxxxxxxxxx"
 '''
 
