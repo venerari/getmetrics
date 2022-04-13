@@ -16,7 +16,7 @@ from tinydb import TinyDB, Query
 from datetime import date
 #from urllib.request import urlopen
 
-headers = {'Authorization': 'Bearer sha256~tyEUAtd2fSvHVgEd9wOgim5pdvVvJfDA27fTvFLxEog'}   
+headers = {'Authorization': 'Bearer sha256~xxxxxxxxxxx'}   
 url='https://prometheus-k8s-openshift-monitoring.apps.mssocp4uat.corp.server.ca/api/v1/query?query=openshift_deploymentconfig_created&time=1623585600&_=1623585600000'
 
 response=requests.request("GET", url, headers=headers, verify=False)
