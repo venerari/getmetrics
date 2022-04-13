@@ -57,24 +57,24 @@ EXAMPLES = '''
 - name: Call the module to get prometheus metrics
   get_metrics:
     ocptoken: sha256~xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    server: mssocp4uat
+    server: server1
     startdatetime: "2021-06-03 12:00"
     enddatetime : "2021-06-10 12:00"
     namespace: "{{item}}"
   with_items:                                # THIS WILL LOOP AND SLOW THE PROCESS
-    - cs-lt
-    - cs-dev
-    - cs-et
+    - ns-lt
+    - ns-dev
+    - ns-et
 
     -OR-
 
 - name: Call the module to get prometheus metrics
   get_metrics:
     ocptoken: sha256~xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    server: mssocp4uat
+    server: server1
     startdatetime: "2021-06-03 12:00"
     enddatetime : "2021-06-10 12:00"
-    namespace: "["cs-lt","cs-dev","cs-et"]"  # THIS WILL NOT LOOP AND SPEED UP THE PROCESS
+    namespace: "["ns-lt","ns-dev","ns-et"]"  # THIS WILL NOT LOOP AND SPEED UP THE PROCESS
 '''
 
 RETURN = '''
