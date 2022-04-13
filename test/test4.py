@@ -17,7 +17,7 @@ from datetime import date
 #from urllib.request import urlopen
 
 os.system("rm -f ./metrics.json") 
-token = 'sha256~ik1_1y12DWD56u5WpxSIVJMR-sj12-qcphHzLcBFwm8'
+token = 'sha256~ik1_xxxxxxxxxxxxxx'
 metrics = TinyDB('./metrics.json')
 
 _token = f'Bearer {token}'
