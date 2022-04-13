@@ -52,8 +52,8 @@ EXAMPLES = '''
 ---
 - name: Call the module to get prometheus metrics
   push_metrics:
-    namespace: "['cs-lt', 'cs-dev', 'cs-et']"
-    conf_token: 'c3ZjLxxxxxxxxxxxxxxxxxQyt4S1QwcQ=='
+    namespace: "['ns-lt', 'ns-dev', 'ns-et']"
+    conf_token: 'xxxxxxxxxxxxxxxxx'
     conf_url: 'https://confluence.corp.server.ca/rest/api/content/'
     conf_id: '87191234'
     jsession_id: "xxxxxxxxxxxxxxx"
