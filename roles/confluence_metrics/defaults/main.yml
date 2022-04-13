@@ -1,7 +1,7 @@
 ---
 
 # namespace (this can be a list but slow the processing time)  
-ns: '["cs-lt","cs-dev","cs-et","cs-pt","cs-uat","cs-mgs","efms-lt","rts-dev","rts-uat-mgs","teradmin-et"]'
+ns: '["ns-lt","ns-dev","ns-et"]'
 
 # url of confluence
 url: 'https://confluence.x.ca/rest/api/content/' 
@@ -25,4 +25,4 @@ enddate:
 id: 87198483 
 
 # jsession id
-jsession_id: 045BC72DA68F8D99D93D3B0704FFB243
+jsession_id: 1234567890
