@@ -25,8 +25,8 @@ Instructions:
 
     (3) run (copy and paste to your linux cli): 
 
-      (3a) > ns='["cs-lt","cs-dev","cs-et","cs-pt","cs-uat","cs-mgs","efms-lt","rts-dev","rts-uat-mgs","teradmin-et"]'
-           > ansible-playbook main.yml -e "ocptoken=`oc whoami -t` svr='mssocp4uat' startdate='2021-06-29 00:00' enddate='2021-07-06 06:00' ns=`echo $ns` id='87198483'" --ask-vault-pass -v 
+      (3a) > ns='["cs-lt","ns-dev","cs-et","ns-pt","cs-uat","ns-mgs","ns-lt"]'
+           > ansible-playbook main.yml -e "ocptoken=`oc whoami -t` svr='server1' startdate='2021-06-29 00:00' enddate='2021-07-06 06:00' ns=`echo $ns` id='xxxxxxx'" --ask-vault-pass -v 
                # please ask the author for the vault password
                # --ask-vault-pass will go away in Ansible Tower
 
