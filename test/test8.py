@@ -1,16 +1,16 @@
 import json
 
-nsrange=["cs-lt","cs-dev"]
+nsrange=["ns-lt","ns-dev"]
 dcl = {}
 dcl['mydata'] = []
 dcl['mydata'].append({
-			"ns": "bcs-dev",
-			"dc": "cds-dev",
+			"ns": "ns-dev",
+			"dc": "ns-dev",
 			"getmetric": "x"
 })
 dcl['mydata'].append({
-			"ns": "acs-dev",
-			"dc": "cds-dev",
+			"ns": "ns-dev",
+			"dc": "cs-dev",
 			"getmetric": "y"
 })
         
